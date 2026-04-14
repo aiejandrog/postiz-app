@@ -10,6 +10,6 @@ export class AgentRun {
     describe: 'Run the agent',
   })
   async agentRun() {
-    console.log(await this._agentGraphService.createGraph('hello', true));
+    console.log('Agent command registered. Use the API to trigger agent runs.');
   }
 }
