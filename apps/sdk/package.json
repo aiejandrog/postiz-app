@@ -5,7 +5,8 @@
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
-    "publish": "tsup && pnpm publish --access public"
+    "publish": "tsup && pnpm publish --access public",
+    "start": "node -e \"setInterval(()=>{},2147483647)\""
   },
   "files": [
     "dist"
